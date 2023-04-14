@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+hr {
+    box-shadow: 2px 2px 2px  rgb(10, 35, 43); 
+}
+.clr {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+header {
+    padding: 70px 0;
+    background-color: lightblue;
+    min-height: 90vh;
+    
+}
+header img {
+    max-width: 100%;
+}
+
+#navbar {
+    padding-top:px;
+}
+.logo {
+    float: left;
+    font-size: 40px;
+    color: rgb(5, 94, 97);
+}
+.mission span {
+    color: red;
+}
+#navbar ul {
+    float: right;
+    
+}
+#navbar ul li {
+    float: left;
+    list-style: none;
+    display: block;
+    padding: 0 20px
+}
+#navbar ul li a {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #444;
+}
+#navbar ul li a:hover {
+    cursor: pointer;
+    color: lightslategray;
+}
+.mission {
+    margin-top: 20px;
+}
+.mission .new {
+    font-family: 'Bodoni Moda', serif;
+}
+.mission p{
+    font-size: 25px;
+
+    
+}
+#content {
+    padding: 30px 0;
+}
+.box {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    font-family: sans-serif;
+}
+
+
+#how-it-work {
+    text-align: center;
+    height: 60vh;
+    padding: 50px 0;
+    background-color: lightgrey;
+}
+#how-it-work i {
+    color: coral;
+
+}
+#mainbar {
+    margin: 20px 0;
+}
+#mainbar h2 {
+    text-align: center;
+
+}
+#sidebar  {
+    background-color: rgb(96, 96, 225);
+    font-size: 20px;
+    
+} 
+#sidebar ul li a {
+    color: #fff;
+}
+#sidebar ul li a:hover {
+    color: coral;
+}
+#sidebar ul li  {
+    list-style: none;
+    
+}
+#sidebar .row {
+    color: #fff;
+}
+.footer .left {
+    float: left;
+}
+.footer .right {
+    float: right;
+}
+.footer .left p {
+    color: #111;
+}
+.footer {
+    background-color:rgb(96, 96, 225);
+}
